@@ -1,0 +1,7 @@
+name: 'Build Statique Site'
+description: 'Builds your static site using Statique'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - 'build'
